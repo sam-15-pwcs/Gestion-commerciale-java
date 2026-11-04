@@ -5,7 +5,13 @@ private String nom;
 private String prenom;
 private boolean etat;
 private int age;
-
+private String adresse;
+	public String getAdresse(){
+		return adresse;
+	}
+	public void setAdresse(String adresse){
+		this,adresse=adresse;
+	}
 public int getAge() {
 	return age;
 }
